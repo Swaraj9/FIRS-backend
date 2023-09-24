@@ -1,0 +1,5 @@
+torch
+torchvision
+pathlib
+PIL
+sys

@@ -1,0 +1,15 @@
+{
+  "name": "firs-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildnode": "cd node && npm install",
+    "buildpython": "cd python && pip install -r requirements.txt -t .",
+    "build": "npm run buildnode && npm run buildpython"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
