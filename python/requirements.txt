@@ -2,4 +2,3 @@ torch
 torchvision
 pathlib
 Pillow
-sys
