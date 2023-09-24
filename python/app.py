@@ -6,7 +6,7 @@ from torchvision import transforms
 from PIL import Image
 import sys
 
-path = "./modelCode/vit_b_16_E5_0.8342.pt"
+path = "../models/vit_b_16_E5_0.8342.pt"
 device = "cpu"
 
 model = models.vit_b_16()
@@ -23,7 +23,7 @@ testTransforms = transforms.Compose([
                      std=[0.229, 0.224, 0.225])
 ])
 
-dest = Path("./modelCode/classes.txt")
+dest = Path("../python/classes.txt")
 
 classNames = []
 with open(dest) as file:
